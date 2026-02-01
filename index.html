@@ -106,8 +106,8 @@ body{
 /* Download function */
 function downloadSong(){
   const link = document.createElement("a");
-  link.href = "song";   // file same folder me honi chahiye
-  link.download = "song";
+  link.href = "song.zip";   // file same folder me honi chahiye
+  link.download = "song.zip";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
